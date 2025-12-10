@@ -1,0 +1,88 @@
+.custom-node {
+  width: 240px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+}
+
+.custom-node.start {
+  border-left: 4px solid #4ade80;
+}
+
+.custom-node.action {
+  border-left: 4px solid #60a5fa;
+}
+
+.custom-node.validation {
+  border-left: 4px solid #f97316;
+}
+
+.custom-node.trigger {
+  border-left: 4px solid #a855f7;
+}
+
+.custom-node.output {
+  border-left: 4px solid #22c55e;
+}
+
+.custom-node.end {
+  border-left: 4px solid #ef4444;
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.node-icon {
+  width: 34px;
+  height: 34px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.node-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.node-subtitle {
+  font-size: 12px;
+  color: #666;
+}
+
+.metrics {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.metric {
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+}
+
+.metric-blue { background: #3b82f6; }
+.metric-green { background: #22c55e; }
+.metric-purple { background: #a855f7; }
+.metric-red { background: #ef4444; }
+
+/* Flow handles */
+.handle {
+  width: 10px !important;
+  height: 10px !important;
+  background: #555 !important;
+  border-radius: 50%;
+}
